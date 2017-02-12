@@ -1,0 +1,44 @@
+doctype html
+html(lang="zh-cmn-Hans")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width,initial-scale=1.0")
+        title   张志达的简历
+        link(rel="stylesheet" href="style.css" type="text/css")
+        link(rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" type="text/css")
+        script(src="./angular.js")
+        script(src="./index.js")
+
+    body(ng-app='CV')
+        section.page
+            .left-content
+                .user-info
+                    .user-photo
+                        img(src='./logo.jpeg')
+                    .user-name 张志达
+                    .user-base
+                        p   25岁
+                        p 浙江金华
+                    .user-job 前端工程师
+                .user-skill
+                -var skill = {HTML:60,CSS:65,JavaScript:80,Angular:85,NodeJs:75,Express:90,MySql:60,Gulp:70,WebPack:65,'Flex':50,'C/C++':40};
+                    each val,key in skill
+                        div(ui-progress data-percent=val data-name=key)
+                .user-description
+                    p 我对学习新技术充满热情,有较强的自学能力,同时也能够独立查询资料来解决问题,并且坚持有条理的进行工作。
+                .user-contact
+                    div
+                        i.fa.fa-address-book-o
+                        | 1234567
+                    div
+                        i.fa.fa-envelope-o
+                        | zzd550510593@163.com
+            .right-content
+                .educaition
+                    h1 教育背景
+                .work-company
+                .work-experience
+
+
+
+

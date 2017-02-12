@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/zzd550510593/CV/issues"
   },
-  "homepage": "https://github.com/zzd550510593/CV#readme"
+  "homepage": "https://github.com/zzd550510593/CV#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.2.0"
+  }
 }

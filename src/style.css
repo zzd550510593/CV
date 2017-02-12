@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body  {
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    -webkit-tap-highlight-color: rgba(0,0,0,1);
+}
+
+html  {
+    display:block;
+}
+
+body {
+    font-family: Lato,"Microsoft YaHei",sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    background: #f1eee8;
+}
+
+.page  {
+    position:absolute;
+    width:100%;
+    height:100%;
+
+}
+
+.left-content  {
+    float:left;
+    min-width: 270px;
+    padding:10px 20px;
+    width:30%;
+    height: 100%;
+    background: #4f667b;
+}
+
+.right-content  {
+    float:left;
+    width:69%;
+    height: 100%;
+}
+
+.user-info  {
+    width:100%;
+    padding-top:30px;
+}
+
+.user-photo  {
+    width:150px;
+    margin:0 auto;
+}
+
+.user-photo img  {
+    width:150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.user-name  {
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+    color: #f1eee8;
+    font-size:35px;
+    border-bottom:2px solid #4e4747;
+}
+.user-base  {
+    padding-top: 4px;
+    text-align: center;
+    color: #403e39;
+}
+.user-base p  {
+    margin:4px;
+    padding:0;
+}
+.user-job  {
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #383531;
+    border-bottom: 1px solid #4e4747;
+}
+.user-skill  {
+    width:100%;
+    margin:0 auto;
+    padding-top:40px;
+    position: relative;
+}
+
+.ui-progress  {
+    position:relative;
+    margin:5px 0;
+}
+
+.ui-progress-name {
+    display:inline-block;
+    width:35%;
+    font-size: 15px;
+    color:#f1eee8;
+    text-align: right;
+    padding-right:12px;
+}
+
+.ui-progress-bar  {
+    display:inline-block;
+    width:65%;
+    height:15px;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #667888;
+    border:none;
+}
+
+.ui-progress-bar div  {
+    width:100%;
+    height:100%;
+    background: #f1eee8;
+    border-radius: 0 5px 5px 0;
+    transform: translate3d(-100%,0,0);
+    transition: all ease 1s;
+    border:none
+}
+
+.ui-progress-bar-corner {
+    width:5px;
+    height:15px;
+    position: absolute;
+    right:65%;
+    top:0;
+    background: #f1eee8;
+    border-radius: 5px 0 0 5px;
+}
+
+.user-description {
+    font-size: 15px;
+    text-indent: 2em;
+    color:#403e39;
+    padding-top:40px;
+}
+
+.user-contact {
+    position: absolute;
+    bottom:0;
+    padding-bottom: 40px;
+}
+
+.user-contact .fa  {
+    margin-right:8px;
+    font-size:26px;
+}
+
+.user-contact div {
+    color:#f1eee8;
+    margin: 10px 0;
+    text-decoration: underline;
+}
+
+.education h1  {
+    font-color:black;
+    font-size:40px;
+}
