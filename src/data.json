@@ -1,0 +1,14 @@
+{
+  "data":[
+    {
+      "name":"辅导员信息管理系统",
+      "techs":["Angular","Express","MySQL","Pug"],
+      "description":"负责移动微信端以及后端的开发.移动为单页面应用,使用mobile angular进行制作.而后端使用express框架进行建站,对MySQL数据库进行操作."
+    },
+    {
+      "name":"信息发布系统",
+      "techs":["Angular","Express","MySQL","Bluebird","Pug","Webpack","Gulp","ApiDoc"],
+      "description":"负责移动微信端以及后端的开发.移动为单页面应用,使用mobile angular进行制作.而后端使用express框架进行建站,对MySQL数据库进行操作."
+    }
+  ]
+}

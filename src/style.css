@@ -3,7 +3,8 @@
 }
 
 html,body  {
-    overflow: hidden;
+    overflow-x: visible;
+    overflow-y: visible;
     margin:0;
     padding:0;
     -webkit-tap-highlight-color: rgba(0,0,0,1);
@@ -20,26 +21,33 @@ body {
     background: #f1eee8;
 }
 
+
 .page  {
     position:absolute;
     width:100%;
     height:100%;
-
+    min-width: 680px;
+    min-height:961px
 }
 
 .left-content  {
-    float:left;
+    position: absolute;
+    top:0;
+    left:0;
     min-width: 270px;
     padding:10px 20px;
-    width:30%;
+    width:40%;
     height: 100%;
     background: #4f667b;
 }
 
 .right-content  {
-    float:left;
-    width:69%;
+    position: absolute;
+    top:0;
+    right:0;
+    width:59%;
     height: 100%;
+    padding:10px 20px;
 }
 
 .user-info  {
@@ -159,7 +167,74 @@ body {
     text-decoration: underline;
 }
 
-.education h1  {
-    font-color:black;
-    font-size:40px;
+.education,.work-company  {
+    margin:20px 0;
+}
+
+.h-school,.h-company  {
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.h-date  {
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.h-specialty  {
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.title  {
+    position: relative;
+    height:30px;
+    color:#4f667b;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.title .fa  {
+    font-size: 30px;
+}
+
+.title h1  {
+    position: absolute;
+    display: inline-block;
+    font-size: 22px;
+    top:0;
+    left:45px;
+    width:100%;
+    margin:0;
+    padding-right:45px ;
+    border-bottom: 1px solid #4f667b;
+}
+
+.project  {
+    padding: 20px 0;
+}
+
+.project-name  {
+    color:#4f667b;
+}
+
+.project-tech  {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.tech {
+    display: inline-block;
+    background:#4f667b;
+    color:#f1eee8;
+    font-size: 15px;
+    margin:10px 5px 0 5px;
+    padding:0 5px;
+    border-radius: 4px;
+}
+
+.project-description  {
+    text-indent: 2em;
+    padding-left: 20px;
 }
