@@ -14,7 +14,7 @@ html(lang="zh-cmn-Hans")
             .left-content
                 .user-info
                     .user-photo
-                        img(src='./logo.jpg')
+                        img(src='./logo.jpeg')
                     .user-name 张志达
                     .user-base
                         p   25岁
@@ -25,14 +25,20 @@ html(lang="zh-cmn-Hans")
                     each val,key in skill
                         div(ui-progress data-percent=val data-name=key)
                 .user-description
-                    p 我对学习新技术充满热情,有较强的自学能力,同时也能够独立查询资料来解决问题,并且坚持有条理的进行工作。
+                    pre 我对学习新技术充满热情,有较强的自学能力,同时也能够独立查询资料来解决问题,并且坚持有条理的进行工作。对es6进行过学习，未来希望使用vue或者react进行开发。同时加强NodeJs的能力，希望成为一个全栈工程师。
                 .user-contact
                     div
                         i.fa.fa-address-book-o
-                        | 1234567
+                        |
                     div
                         i.fa.fa-envelope-o
                         | zzd550510593@163.com
+                    div
+                        i.fa.fa-gitlab
+                        | gitlab.com/zhidazhang
+                    div
+                        i.fa.fa-github
+                        | github.com/zzd550510593
             .right-content
                 .education
                     .title

@@ -34,7 +34,7 @@ body {
     position: absolute;
     top:0;
     left:0;
-    min-width: 270px;
+    min-width: 300px;
     padding:10px 20px;
     width:40%;
     height: 100%;
@@ -95,7 +95,7 @@ body {
 .user-skill  {
     width:100%;
     margin:0 auto;
-    padding-top:40px;
+    padding-top:20px;
     position: relative;
 }
 
@@ -133,7 +133,7 @@ body {
     border:none
 }
 
-.ui-progress-bar-corner {
+/*.ui-progress-bar-corner {
     width:5px;
     height:15px;
     position: absolute;
@@ -141,19 +141,24 @@ body {
     top:0;
     background: #f1eee8;
     border-radius: 5px 0 0 5px;
-}
+}*/
 
 .user-description {
-    font-size: 15px;
+    font-size: 20px;
     text-indent: 2em;
-    color:#403e39;
-    padding-top:40px;
+    color:#e6e0cf;
+}
+
+.user-description pre  {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
 }
 
 .user-contact {
-    position: absolute;
+/*    position: absolute;
     bottom:0;
-    padding-bottom: 40px;
+    padding-bottom: 40px;*/
 }
 
 .user-contact .fa  {
@@ -173,12 +178,14 @@ body {
 
 .h-school,.h-company  {
     font-size: 20px;
+    padding-bottom:5px;
     padding-left: 20px;
 }
 
 .h-date  {
     font-size: 14px;
     padding-left: 20px;
+    padding-bottom: 5px;
 }
 
 .h-specialty  {
@@ -211,11 +218,13 @@ body {
 }
 
 .project  {
-    padding: 20px 0;
+    border-bottom: 1px solid #cabbbb;
+    margin: 0 20px 20px 0;
 }
 
 .project-name  {
     color:#4f667b;
+    padding-left: 20px;
 }
 
 .project-tech  {
@@ -235,6 +244,13 @@ body {
 }
 
 .project-description  {
-    text-indent: 2em;
-    padding-left: 20px;
+    overflow: visible;
+    background:#f1eee8;
+    border:none;
+    padding-left: 18px;
+    width:100%;
+    font-size: 20px;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
 }

@@ -3,12 +3,12 @@
     {
       "name":"辅导员信息管理系统",
       "techs":["Angular","Express","MySQL","Pug"],
-      "description":"负责移动微信端以及后端的开发.移动为单页面应用,使用mobile angular进行制作.而后端使用express框架进行建站,对MySQL数据库进行操作."
+      "description":"负责移动端（微信端），nodejs后端的开发。\n  移动端：使用Mobile－angular框架，以及pug(jade)模版进行开发。\n  后端：使用express框架建立，操作Mysql数据库，制作JSON格式的接口。"
     },
     {
       "name":"信息发布系统",
       "techs":["Angular","Express","MySQL","Bluebird","Pug","Webpack","Gulp","ApiDoc"],
-      "description":"负责移动微信端以及后端的开发.移动为单页面应用,使用mobile angular进行制作.而后端使用express框架进行建站,对MySQL数据库进行操作."
+      "description":"负责移动端（微信端），nodejs后端的开发\n  移动前端：使用webpack＋gulp＋npm的组合进行前端的自动化构建，将js以及css文件以及字体分别进行压缩合并到一个文件。使用pug(jade)模版，angular，bootstrap，WeUi构建单页面应用。\n  后端：使用express框架建立，设计数据库结构并使用Mysql。系统还包括一个独立的文件断点续传的上传模块。遵循apiDoc的注释语法进行接口注释，可自动生成接口文档。"
     }
   ]
 }
