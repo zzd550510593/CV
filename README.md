@@ -1,5 +1,15 @@
 # 个人简历
 
-# tool
+## tool
+* gulp
+* angular
+* font-awesome
+* pug
+
+## start
+``
+cnpm install;
+gulp;
+``
 
 
