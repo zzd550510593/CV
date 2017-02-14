@@ -35,11 +35,11 @@ app.directive('uiProject',['$http','$rootScope',function($http,$rootScope){
                 '<div class="project-tech">' +
                     '<div class="tech" ng-repeat="val in p.techs track by $index">{{val}}</div>' +
                 '</div>' +
-                '<textarea class="project-description">{{p.description}}</textarea>' +
+                '<pre class="project-description">{{p.description}}</pre>' +
             '</div>',
         link:function(scope){
             scope.data = null;
-            $http.get('./data.json').success(function(data){
+            $http.get('./data/data.json').success(function(data){
                if(scope.$$phase||$rootScope.$$phase){
                    scope.data = data['data'];
                }else{
