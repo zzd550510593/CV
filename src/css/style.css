@@ -24,11 +24,12 @@ body {
 
 .page  {
     position:absolute;
-    width:100%;
+    left:50%;
+    margin-left:-380px;
+    width:760px;
     background: #f1eee8;
     min-height: 1077px;
     min-width:740px;
-    margin:0 auto;
     overflow: hidden;
     background: -webkit-linear-gradient(left,  #4f667b 0%,#f1eee8 100%);
 
